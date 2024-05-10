@@ -31,7 +31,7 @@ export async function run(): Promise<void> {
 
       command = `${tsc} ${
         extended ? '--extendedDiagnostics' : '--diagnostics'
-      } --incremental false`
+      } --incremental false .`
     }
 
     const newResult = await exec.getExecOutput(command)
