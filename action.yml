@@ -1,4 +1,4 @@
-name: 'TSC Diagnostics Diff'
+name: 'TSC Diagnostics'
 description: 'Compare TypeScript Compiler Performance'
 author: 'Aleksandra Sikora <https://github.com/beerose>'
 branding:
